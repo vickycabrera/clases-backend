@@ -1,0 +1,101 @@
+[
+    {
+        "title":"Fideos",
+        "description":"Un producto Marolio",
+        "price":1500,
+        "thumbnail":"Sin imagen",
+        "code":"FER965",
+        "stock":15,
+        "id":0
+    },
+    {
+        "title":"Aceite",
+        "description":"Un producto Marolio",
+        "price":2000,
+        "thumbnail":"Sin imagen",
+        "code":"SWQ412",
+        "stock":22,
+        "id":1
+    },
+    {
+        "title":"Harina",
+        "description":"Un producto Marolio",
+        "price":1300,
+        "thumbnail":"Sin imagen",
+        "code":"JKL745",
+        "stock":102,
+        "id":2
+    },
+    {
+        "title":"Sal",
+        "description":"Un producto Marolio",
+        "price":1500,
+        "thumbnail":"Sin imagen",
+        "code":"OPL753",
+        "stock":63,
+        "id":3
+    },
+    {
+        "title":"Pan",
+        "description":"Un producto Marolio",
+        "price":1500,
+        "thumbnail":"Sin imagen",
+        "code":"YGT203",
+        "stock":45,
+        "id":4
+    },
+    {
+        "title":"Yerba",
+        "description":"Un producto Marolio",
+        "price":1500,
+        "thumbnail":"Sin imagen",
+        "code":"WVD691",
+        "stock":230,
+        "id":5
+    },
+    {
+        "title":"Arroz",
+        "description":"Un producto Marolio",
+        "price":2200,
+        "thumbnail":"Sin imagen",
+        "code":"SWQ447",
+        "stock":210,
+        "id":6
+    },
+    {
+        "title":"Arvejas",
+        "description":"Un producto Marolio",
+        "price":1005,
+        "thumbnail":"Sin imagen",
+        "code":"KMN745",
+        "stock":20,
+        "id":7
+    },
+    {
+        "title":"Azucar",
+        "description":"Un producto Marolio",
+        "price":3000,
+        "thumbnail":"Sin imagen",
+        "code":"CVB153",
+        "stock":63,
+        "id":8
+    },
+    {
+        "title":"Pan",
+        "description":"Un producto Marolio",
+        "price":1520,
+        "thumbnail":"Sin imagen",
+        "code":"FVC214",
+        "stock":450,
+        "id":9
+    },
+    {
+        "title":"Atun",
+        "description":"Un producto Marolio",
+        "price":4010,
+        "thumbnail":"Sin imagen",
+        "code":"WTD741",
+        "stock":13,
+        "id":10
+    }
+]

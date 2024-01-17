@@ -109,7 +109,7 @@ class ProductManager {
         }
     }
 }
-
+ 
 const fileDir = "./ejemplo.json";
 
 // // CREO LA INSTANCIA DEL MANEJADOR
@@ -145,14 +145,16 @@ const fileDir = "./ejemplo.json";
 // })
 
 //CREO EL SEGUNDO PRODUCTO
-primerManejador.addProduct({
-    title: "producto prueba 2",
-    description:"...",
-    price:1500,
-    thumbnail:"Sin imagen",
-    code:"TFG568",
-    stock:12
-})
+// primerManejador.addProduct({
+//     title: "producto prueba 2",
+//     description:"...",
+//     price:1500,
+//     thumbnail:"Sin imagen",
+//     code:"TFG568",
+//     stock:12
+// })
 
-//BORRO EL PRIMER PRODUCTO
-primerManejador.deleteProduct(0)
+// //BORRO EL PRIMER PRODUCTO
+// primerManejador.deleteProduct(0)
+
+module.exports= ProductManager
