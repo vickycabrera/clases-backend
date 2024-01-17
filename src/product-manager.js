@@ -1,6 +1,6 @@
 const fs = require("fs")
 
-/*Segundo desafio: */
+/*Tercer desafio: */
 class ProductManager {
     #productCounter
     constructor(path){
@@ -73,12 +73,12 @@ class ProductManager {
     }
 
     async deleteProduct(id) {
-       const products = await this.getProducts()
-       if (products.some(p => p.id === id)){
-           const newArray = products.filter (p => p.id === id)
-           this.escribirArchivo(newArray)
-           this.products = newArray
-       } else console.log ("Error, no existe un producto con ese id")
+        const products = await this.getProducts()
+        if (products.some(p => p.id === id)){
+            const newArray = products.filter (p => p.id === id)
+            this.escribirArchivo(newArray)
+            this.products = newArray
+        } else console.log ("Error, no existe un producto con ese id")
     }
 
 
@@ -109,52 +109,5 @@ class ProductManager {
         }
     }
 }
- 
-const fileDir = "./ejemplo.json";
-
-// // CREO LA INSTANCIA DEL MANEJADOR
- const primerManejador = new ProductManager(fileDir)
-
-// // TRAIGO EL ARRAY DE PRODUCTOS: (VACIO)
-// primerManejador.getProducts()
-
-// //CREO EL PRIMER PRODUCTO
-// primerManejador.addProduct({
-//     title: "producto prueba",
-//     description:"Este es un producto prueba",
-//     price:200,
-//     thumbnail:"Sin imagen",
-//     code:"abc123",
-//     stock:25
-// })
-
-// // TRAIGO EL ARRAY DE PRODUCTOS: 
-// primerManejador.getProducts()
-
-// // TRAIGO EL ARRAY DE PRODUCTOS: 
-// primerManejador.getProductById(1)
-
-// //INTENTO ACTUALIZAR UN PRODUCTO
-// primerManejador.updateProduct(0, {
-//     title: "producto prueba",
-//     description:"Este es el mismo producto pero con otra descripción",
-//     price:200,
-//     thumbnail:"Sin imagen",
-//     code:"abc123",
-//     stock:25
-// })
-
-//CREO EL SEGUNDO PRODUCTO
-// primerManejador.addProduct({
-//     title: "producto prueba 2",
-//     description:"...",
-//     price:1500,
-//     thumbnail:"Sin imagen",
-//     code:"TFG568",
-//     stock:12
-// })
-
-// //BORRO EL PRIMER PRODUCTO
-// primerManejador.deleteProduct(0)
 
 module.exports= ProductManager
